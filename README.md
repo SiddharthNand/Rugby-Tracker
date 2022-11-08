@@ -7,7 +7,7 @@ With the interest I have for rugby, i have decided to create a tracker which all
 https://trello.com/b/YRf2KDwI/rugby-tracker
 
 ### ERD
-![ERD](public/Images/ERD.jpeg)
+![ERD](public/Images/ERD.jpg)
 
 ### Wire Frame
 ![WireFrame1](public/Images/WireFrame1.jpg)
