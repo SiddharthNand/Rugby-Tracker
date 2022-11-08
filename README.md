@@ -6,6 +6,9 @@ With the interest I have for rugby, i have decided to create a tracker which all
 ### Trello Board
 https://trello.com/b/YRf2KDwI/rugby-tracker
 
+### ERD
+![ERD](public/Images/ERD.jpeg)
+
 ### Wire Frame
 ![WireFrame1](public/Images/WireFrame1.jpg)
 ![WireFrame2](public/Images/WireFrame2.jpg)
@@ -38,4 +41,6 @@ Functionality:
 
 
 
-# Rugby-Tracker
+#### Images Used
+![Rugby Ball](public/Images/rugby-Ball.jpeg)
+https://media.istockphoto.com/id/1009616860/vector/rugby-sport-ball-icon-vector-line-3d-icon.jpg?s=612x612&w=0&k=20&c=1Mw9ytWww0iCWtUQ-8XAeWGc_Z2o2jfmwnxWsbAymno=
