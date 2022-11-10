@@ -1,19 +1,14 @@
 const mongoose = require('mongoose')
-const Scheme = mongoose.Schema; 
+const Schema = mongoose.Schema; 
 
 const teamSchema = new Schema({
-    country: {
-        type: String
-    }, 
-    topPlayers: {
-        type: String
-    },
-    wins: {
-        type: Number
-    },
-    losses: {
-        type: Number
-    }
+    team: String,
+    country: String,
+    topPlayers: String,
+    wins: Number,
+    losses: Number
 });
 
-module.exports = mongoose.model('Team', movieSchema)
+module.exports = mongoose.model('Team', teamSchema)
+
+
