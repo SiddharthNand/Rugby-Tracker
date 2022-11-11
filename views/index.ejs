@@ -11,17 +11,18 @@
 <body>
   <p>Welcome to <%= title %>
   </p>
-  <ul>
-    <li><a href="/">Home</a></li>
+  
+    <a href="/">Home</a>
     <% if (user) { %>
-      <li><a href="/teams">Team Page</a></li>
-      <li><a href="/players">Players</a></li>
-      <li><a href="/private">Private Page</a></li>
-      <li><a href="/logout">Log Out</a></li>
+    <a href="/teams">Team Page</a>
+    <a href="/teams/new">Add Team</a>
+    <a href="/players">Players</a>
+    <a href="/players/new">Add Players</a>
+    <a href="/logout">Log Out</a>
       <% } else { %>
-        <li><a href="/auth/google">Log In</a></li>
+        <a href="/auth/google">Log In</a>
         <% } %>
-  </ul>
+  
 </body>
 
 </html>
