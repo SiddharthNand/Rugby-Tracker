@@ -48,6 +48,7 @@ app.use(function (req, res, next) {
 });
 
 // ROUTES
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/teams", teamsRouter)
