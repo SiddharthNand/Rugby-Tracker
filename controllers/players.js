@@ -5,6 +5,7 @@ module.exports = {
     new: newPlayer,
     create,
     show,
+    deletePlayers,
 }
 
 function index(req, res) {
@@ -34,3 +35,10 @@ function create(req, res) {
         res.redirect('/players');
     });
   };
+
+  function deletePlayers(req, res) {
+    Player.findOne({'_id': req.params.id}).then(function(player) {
+      player.remove();
+        res.redirect('/players');
+      });
+}

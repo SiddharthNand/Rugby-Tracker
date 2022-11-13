@@ -7,5 +7,6 @@ router.get('/', teamsCtrl.index);
 router.get('/new', isLoggedIn, teamsCtrl.new)
 router.get('/:id', teamsCtrl.show)
 router.post('/', isLoggedIn, teamsCtrl.create)
+router.delete('/:id', teamsCtrl.deleteTeam);
 
 module.exports = router;

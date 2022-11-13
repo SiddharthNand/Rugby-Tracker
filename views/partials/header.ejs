@@ -17,10 +17,12 @@
     <a href="/teams" <%- title === 'All Teams' ? 'class="active"' : '' %>>ALL TEAMS</a>
     <% if (user) { %>
       <a href="/teams/new" <%- title === 'Add Team' ? 'class="active"' : '' %>>ADD TEAM</a>
-        <a href="/players/new"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
+      
+        <a href="/players"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
+      ALL PLAYERS</a>
+      <a href="/players/new"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
 		ADD PLAYER</a>
-    <a href="/players"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
-      ALL PLAYER</a>
+    
       
       <a href="/logout">LOG OUT</a>
     <% } else { %>
