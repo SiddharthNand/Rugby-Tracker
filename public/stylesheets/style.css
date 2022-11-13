@@ -7,3 +7,15 @@ body {
 a {
   color: green;
 }
+
+.delete {
+  color: red;
+}
+
+.update {
+  width: 30%;
+}
+
+.updateBut {
+  color: green;
+}

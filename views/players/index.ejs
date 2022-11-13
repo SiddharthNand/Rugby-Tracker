@@ -1,6 +1,6 @@
 <%- include('../partials/header') %> 
 <div class ="container text-center">
-<table class="table table-success table-striped">
+<table class=table class="table table-bordered">
     <thead>
       <tr>
         <th scope="col">Name</th>
@@ -20,7 +20,7 @@
     <td><%= p.position %></td>
     <td><form action="/players/<%= p.id %>?_method=DELETE"
       id="delete-form" method="POST">
-      <button type="submit">X</button>
+      <button class="delete" type="submit">X</button>
     </form></td>
 <% }) %> 
 </tr>

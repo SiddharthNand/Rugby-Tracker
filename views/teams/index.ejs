@@ -7,6 +7,7 @@
         <th scope="col">Wins</th>
         <th scope="col">Losses</th>
         <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -18,9 +19,17 @@
         <td><%= t.losses %></td>
         <td><form action="/teams/<%= t.id %>?_method=DELETE"
           id="delete-form" method="POST">
-          <button type="submit">X</button>
+          <button class="delete" type="submit">X</button>
         </form></td>
+
+        <td><form action="/teams/<%= t.id %>/?_method=PUT" method="POST" autocomplete="off">
+          <input class="update" type="number" name="wins" value="<%= t.wins %>">
+          <input class="update" type="number" name="losses" value="<%= t.losses %>">
+          <button class="updateBut" type="submit">Update Team</button>
+        </form>
+        </td>
         <% }) %> 
+        
       </tr>
       </tbody>
 </table>
