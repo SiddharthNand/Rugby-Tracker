@@ -1,13 +1,17 @@
 # Rugby 7s Tracker
 
 ## Background
-With the interest I have for rugby, i have decided to create a tracker which allows me to track the different countries win/loss record and current Roster of players. 
+With the interest I have for rugby, i have decided to create a tracker which allows me to track the different countries win/loss record and add players to watch during live tournaments. 
 
 ### Trello Board
 https://trello.com/b/YRf2KDwI/rugby-tracker
 
 ### ERD
 ![ERD](public/Images/ERD.jpg)
+
+### Screenshots
+![Screenshot1](public/Images/Screenshot1.png)
+![Screenshot2](public/Images/Screenshot2.png)
 
 ### Wire Frame
 ![WireFrame1](public/Images/WireFrame1.jpg)
@@ -38,9 +42,9 @@ Functionality:
   - HTML5
   - CSS & Bootstrap
   - JavaScript
+  - Animate.Style
 
 
 
-#### Images Used
-![Rugby Ball](public/Images/rugby-Ball.jpeg)
-https://media.istockphoto.com/id/1009616860/vector/rugby-sport-ball-icon-vector-line-3d-icon.jpg?s=612x612&w=0&k=20&c=1Mw9ytWww0iCWtUQ-8XAeWGc_Z2o2jfmwnxWsbAymno=
+### Next Steps
+  - Moving forward I would like to complete my notes section and create another tab that allows you to store images from the tournament. 
