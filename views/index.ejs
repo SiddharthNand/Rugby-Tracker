@@ -18,7 +18,10 @@
   <div style = "position:relative; top:80px;" class = "moveDown">
   <p  class="animate__animated animate__backInUp" class = "titleHead">Welcome to your very own Rugby 7s Tracker.</p>
   <div class = "frontPage">
-    <a class="nav-link" disabled> Welcome <%= user.name %>!</a><br>
+    <% if (user){ %>
+      <a class="nav-link" disabled> Welcome <%= user.name %>!</a>
+      <% } %> 
+      <br>
     <a href="/">Home</a>
     <% if (user) { %>
     <a href="/teams">Teams Page</a>

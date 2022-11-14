@@ -42,6 +42,8 @@ a {
 .headerPic {
   text-align: center;
   padding: 20px; 
+  animation: fadeInDown; 
+  animation-duration: 2s; 
 } 
 
 .active {
@@ -55,3 +57,4 @@ h1 {
 .newForm {
 width: 10%;
 }
+
