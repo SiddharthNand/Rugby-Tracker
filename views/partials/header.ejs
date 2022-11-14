@@ -12,18 +12,20 @@
 </head>
 <body>
   <div class = "headerPic">
-  <a href="https://fontmeme.com/3d-fonts/"><img src="https://fontmeme.com/permalink/221114/8e0212432af73f9c9187086679cb009b.png" alt="3d-fonts"></a>
+  <a href="https://fontmeme.com/3d-fonts/">
+  <img src="https://fontmeme.com/permalink/221114/8e0212432af73f9c9187086679cb009b.png" alt="3d-fonts"></a>
   </div>
   
   <nav class="navbar" style="background-color: lightgrey">
     <img height=40px src="/Images/Rugby-Ball-PNG-HD.png">
+    <a class="nav-link" disabled> Welcome <%= user.name %>!</a>
     <a href="/" <%- title === 'Home' ? 'class="active"' : '' %>>HOME</a>
     <a href="/teams" <%- title === 'All Teams' ? 'class="active"' : '' %>>ALL TEAMS</a>
-    <% if (user) { %>
+    <a href="/players"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
+      ALL PLAYERS</a>
+      <% if (user) { %>
       <a href="/teams/new" <%- title === 'Add Team' ? 'class="active"' : '' %>>ADD TEAM</a>
       
-        <a href="/players"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
-      ALL PLAYERS</a>
       <a href="/players/new"	<%- title === 'Add Player' ? 'class="active"' : '' %>>
 		ADD PLAYER</a>
     
@@ -34,7 +36,7 @@
     <% } %>
   </nav>
   <main>
-    <h1><%= title %></h1>
+    <h1 class="text-center"><%= title %></h1>
 
 
     

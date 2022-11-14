@@ -1,7 +1,6 @@
 .homePageDetails {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  /* background-color: lightgrey; */
   background-image: url("/Images/WorldFlags.svg.png");
   background-position: bottom;
 }
@@ -45,3 +44,14 @@ a {
   padding: 20px; 
 } 
 
+.active {
+  text-align: center;
+}
+h1 {
+  color: darkgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.newForm {
+width: 10%;
+}
