@@ -5,25 +5,32 @@
   <title>
     <%= title %>
   </title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/style.css'/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  
+  
 </head>
 
-<body>
-  <p>Welcome to <%= title %>
-  </p>
-  
+<body class = "homePageDetails"></body>
+  <div style = "position:relative; top:80px;" class = "moveDown">
+  <p  class="animate__animated animate__backInUp" class = "titleHead">Welcome to your very own Rugby 7s Tracker.</p>
+  <div class = "frontPage">
     <a href="/">Home</a>
     <% if (user) { %>
-    <a href="/teams">Team Page</a>
-    <a href="/teams/new">Add Team</a>
-    <a href="/players">Players</a>
-    <a href="/players/new">Add Players</a>
+    <a href="/teams">Teams Page</a>
+    <a href="/players">Players Page</a>
     <a href="/logout">Log Out</a>
       <% } else { %>
         <a href="/auth/google">Log In</a>
         <% } %>
+  </div>
+</div>
+
   
-</body>
+
 
 </html>
 

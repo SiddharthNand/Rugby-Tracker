@@ -1,8 +1,16 @@
-body {
+.homePageDetails {
   padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-color: lightgrey; */
+  background-image: url("/Images/WorldFlags.svg.png");
+  background-position: bottom;
+}
+
+body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: lightgrey;
 }
+
 
 a {
   color: green;
@@ -13,9 +21,27 @@ a {
 }
 
 .update {
-  width: 30%;
+  width: 25%;
 }
 
 .updateBut {
   color: green;
 }
+
+.titleHead, .animate__animated, .animate__backInUp {
+  animation: animate__bounceInUp; 
+  animation-duration: 10s; 
+  text-align: center;
+  font-size: 24px;
+}
+
+.frontPage {
+  margin-top: 0;
+  text-align: center;
+}
+
+.headerPic {
+  text-align: center;
+  padding: 20px; 
+} 
+
