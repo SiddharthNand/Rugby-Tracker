@@ -35,6 +35,7 @@ Functionality:
 
 ### Technologies Used
   - OAuth
+  - ProCreate
   - MongoDB
   - Mongoose
   - Express JS
